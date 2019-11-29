@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.design-button {
+    background: linear-gradient(to right, #009fff, #ec2f4b);
+    border: none;
+    color: #ffffff;
+    animation: design-button 5s ease infinite;
+    background-size: 250% 250%;
+}
+
+.design-button:hover {
+    color: #eee;
+    box-shadow: 0 0 5px 0 #f5af19;
+}
+
+.design-button-2 {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: none;
+    color: #ffffff;
+    animation: design-button 5s ease infinite;
+    background-size: 250% 250%;
+}
+
+.design-button-2:hover {
+    color: #eee;
+    box-shadow: 0 0 5px 0 #ff416c;
+}
+
+@keyframes design-button {
+    0% {background-position: 0 50%}
+    50% {background-position: 100% 50%}
+    100% {background-position: 0 50%}
+}
+
+.block-heading-left {
+    padding: 3px 25px 3px 0;
+    border-bottom: 3px solid #ff4b2b;
+    width: 100%;
+    font-size: 2rem;
+}
+
+.block-heading-right {
+    padding: 3px 0 3px 25px;
+    border-bottom: 3px solid #ff4b2b;
+    width: 100%;
+    font-size: 2rem;
+    text-align: right;
+}
