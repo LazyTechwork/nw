@@ -59,3 +59,19 @@
 .light-border {
     border-bottom: 1px solid #696969;
 }
+
+/*
+.partner-list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.partner {
+    margin: auto;
+}*/
+
+
+.partner-list img {
+    max-height: 85px;
+}
